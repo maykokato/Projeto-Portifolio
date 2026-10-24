@@ -26,10 +26,10 @@
 body.escuro{
   --fundo-principal: #222222;
   --texto: #e0e0e0;
-  --texto-inverso: #333333;
-  --destaque: #ff5522;
-  --destaque-inverso: #a73917;
-  --fundo-card: #444444;
+  --texto-inverso: #cc9494;
+  --destaque: #110400;
+  --destaque-inverso: #ae9087;
+  --fundo-card: #a29f9f;
 }
 
 body{
@@ -278,7 +278,7 @@ article a{
 
 @media screen and (min-width: 768px) {
   main{
-    grid-template-columns: auto 500px 1fr auto;
+    grid-template-columns: auto 300px 1fr auto;
   }
 
   section#ficha{
